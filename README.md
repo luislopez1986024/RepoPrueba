@@ -38,6 +38,7 @@ Método	Ruta	Descripción
 POST	/api/v1/votes	Emitir un voto
 GET	/api/v1/votes	Listar todos los votos
 GET	/api/v1/votes/statistics	Estadísticas de votación
+
 Ejemplo (cURL):
 curl -X POST http://localhost:5000/api/v1/votes -H "Content-Type: application/json" -d "{\"votante_id\":1, \"candidato_id\":1}"
 
@@ -71,7 +72,9 @@ sistema_electoral/
 
 
 POR ULTIMO , DEJO EL SCRIPT DE LA BASE DE DATOS DE SQL SERVER
+
 SCRIPT:
+
 USE [master]
 GO
 /****** Object:  Database [SistemaElectoral]    Script Date: 19/06/2025 12:58:04 ******/
