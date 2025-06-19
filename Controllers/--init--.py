@@ -1,0 +1,3 @@
+from .votantes_controller import VotantesController
+from .candidatos_controller import CandidatosController
+from .votos_controller import VotosController
